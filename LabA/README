@@ -3,3 +3,8 @@ The program is a simple encoder program and has three functionalities:
 1. Parsing the command-line arguments and printing debug messages.
 2. The actual encoder.
 3. Redirecting the input and output according to the command-line arguments.
+
+The encoding works as follows: The encryption key is of the following structure: +E{key} or -E{key}. The argument {key} stands for a sequence of digits whose value will be added to/substracted from each input characters in sequence, in a cyclic manner.
+This means that each digit in sequence received by the encoder is added to/substracted from the corresponding character in sequence in the key. When and if the end of the key is reached, re-start reading encoding digits from the beginning of the key.
+The program also supports the option for reading input from a file/writing output to a file: if command-line argument "-Ifname" is present, the input is read from a file called "fname" instead of stdin. Likewise, if command-line argument "-Ofname" is present, the output will be written to a file name "fname".
+
