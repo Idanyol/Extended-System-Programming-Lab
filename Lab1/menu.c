@@ -56,21 +56,7 @@ struct fun_desc {
 };
 
 int main(int argc, char **argv){
-    /* Ass a */
-    // printf("Select operation from the following menu:");
-    // char buffer[1024];
-    // while (1) {
-    //     if (fgets(buffer, sizeof(buffer), stdin) == NULL) {
-    //         break;
-    //     }
-    //     int len = strlen(buffer);
-    //     if (len > 0 && buffer[len-1] == '\n') {
-    //         printf("input: %s", buffer);
-    //     }
-    //     printf("Select operation from the following menu:\n");
-    // }
-
-    /* Ass b */
+ 
     char *carray = (char*)(malloc(5*sizeof(char)));
     carray[0] = '\0';
     struct fun_desc menu[] = {{"Get string", my_get}, {"Print string", cprt}, {"Encrypt", encrypt}, {"Decrypt", decrypt}, {"Print Hex",xprt}, {NULL, NULL}};
