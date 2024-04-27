@@ -1,0 +1,14 @@
+input
+LineParser.c
+LineParser.h
+LineParser.o
+Looper
+Looper.c
+Makefile
+mypipe
+mypipe.c
+myshell
+myshell.c
+output
+/home/caspl202/Desktop/lab2
+/home/caspl202/Desktop/lab2
