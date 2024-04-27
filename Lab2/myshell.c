@@ -73,10 +73,10 @@ void execute (cmdLine *pCmdLine){
 
 
 int main(int argc, char **argv){
-    //check dibug flag
+    //check debug flag
     for (int i = 1; i < argc; i++){ 
         if(strcmp(argv[i],"-d") == 0){
-            debug =1; 
+            debug = 1; 
             break;
         }
     }
