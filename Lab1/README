@@ -1,0 +1,2 @@
+This program simulates objects in C. 
+It implements a menu of operations conducted on a string, each operation is an object containing a name and a method.
